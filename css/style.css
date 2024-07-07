@@ -1,0 +1,181 @@
+/* --------------------------------- General/Global CSS -------------------------------- */
+img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    display: inline-block;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* --------------------------------- Custom CSS --------------------------------------- */
+.my-10 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+/* --------------------------------- Header ------------------------------------------- */
+#leftNav {
+    width: 0;
+    padding-top: 60px;
+    transition: 0.5s;
+    background-color: #111;
+}
+
+.leftNav a:hover {
+    color: rgba(214, 46, 51, 0.6) !important;
+}
+
+.closeBtn {
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#leftNav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+header {
+    background-image: url(../images/party.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.homeContent {
+    margin-left: 0;
+}
+
+.overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+header h2 {
+    font-size: 60px;
+}
+
+header span {
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+/* --------------------------------- Slider ------------------------------------------- */
+#slider h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#slider div {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+/* --------------------------------- Counter ----------------------------------------- */
+#counter {
+    background-image: url(../images/invitation.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 330px;
+}
+
+#counter .container {
+    padding: 90px;
+}
+
+.time {
+    padding: 50px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* --------------------------------- Footer ------------------------------------------ */
+.head h2 {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.head p {
+    color: #777;
+    font-weight: 300;
+}
+
+.contact h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.contact p {
+    line-height: 26px;
+    color: #777;
+}
+
+.red {
+    color: #d62e33 !important;
+}
+
+.social {
+    color: #777;
+}
+.social a {
+    color: #777;
+}
+.social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social i:hover {
+    color: #fff;
+    background-color: #d62e33;
+    border: 1px solid #d62e33;
+}
+
+#char {
+    font-size: 20px;
+    color: #d62e33;
+}
+
+footer button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
